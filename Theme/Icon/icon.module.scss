@@ -1,0 +1,26 @@
+.icon {
+    border-radius: 10px;
+    border: 5px solid rgba(white, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.5s;
+    -webkit-box-shadow: 0px 9px 20px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 9px 20px 8px rgba(0, 0, 0, 0.3);
+    img {
+      height: 60%;
+      filter: invert(99%) sepia(51%) saturate(3813%) hue-rotate(82deg)
+        brightness(95%) contrast(99%);
+    }
+    &:hover {
+      background: linear-gradient(
+        135deg,
+        rgba(5, 242, 175, 1) 0%,
+        rgba(12, 242, 242, 1) 100%
+      );
+      img {
+        filter: invert(100%) sepia(6%) saturate(7500%) hue-rotate(185deg)
+          brightness(106%) contrast(109%);
+      }
+    }
+  }

@@ -1,0 +1,38 @@
+.wrapper {
+    overflow: hidden;
+    height: 120vh;
+    .content {
+        height: 85%;
+        width: 100%;
+        background: #e6e6e6;
+        position: relative;
+        .container {
+            width: 40%;
+            position: absolute;
+            left: 5%;
+            top: 50%;
+            transform: translate3d(0, -50%, 0);
+            p {
+                width: 80%;
+            }
+        }
+        
+    }
+    .illustration {
+        width: 40%;
+        height: 85%;
+        position: absolute;
+        bottom: 0;
+        right: 5%;
+        background: linear-gradient(135deg, rgba(5,242,175,1) 0%, rgba(12,242,242,1) 100%);        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        img {
+            width: 160%;
+            position: absolute;
+            top: -20%;
+            left:-15%;
+        }
+    }
+}

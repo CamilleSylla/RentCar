@@ -1,0 +1,38 @@
+.wrapper {
+    .illustration {
+        position: absolute;
+        height: 80%;
+        top: 50%;
+        left: 0;
+        transform: translate3d(-20%, -50%, 0);
+    }
+    .content {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate3d(0, -50%, 0);
+        h1 {
+            font-size: 2rem;
+            opacity: 0.6;
+          }
+          h2 {
+            padding-top: 2vh;
+            font-size: 3rem;
+          }
+          .args {
+              article {
+                  margin-top: 5vh;
+                  display: flex;
+                  h1 {
+                      font-size: 1.2rem;
+                      opacity: 1;
+                  }
+                  p {
+                      margin-top: 2%;
+                      width: 60%;
+                      line-height: 2.5vh;
+                  }
+              }
+          }
+    }
+}

@@ -1,0 +1,21 @@
+.button {
+    padding:1.5vh 2vw 1.5vh 2vw ;
+    width: 10vw;
+    background: white;
+    margin-top: 5%;
+    border-radius: 10px;
+    text-align: center;
+    border:1px solid rgba(gray, .25);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.05); 
+box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.05);
+    img {
+        height: 30px;
+    }
+    span {
+        font-weight: 700;
+    }
+        
+}
